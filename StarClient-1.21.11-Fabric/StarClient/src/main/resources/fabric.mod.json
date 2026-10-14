@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "starclient",
+  "version": "${version}",
+  "name": "Star Client",
+  "description": "A lightweight client-side HUD and customization mod for Minecraft 1.21.11.",
+  "authors": ["Star Client"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.starclient.StarClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
